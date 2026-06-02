@@ -1,16 +1,147 @@
-# React + Vite
+# Smart City Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack civic management platform that enables citizens to report city-related issues and allows administrators to manage public services, monitor complaints, and track issue resolution status through dedicated dashboards.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## React Compiler
+Frontend Deployment:
+https://smart-city-management-one.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Backend Deployment:
+https://smart-city-backend-1-dhab.onrender.com
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Overview
+
+The Smart City Management System is designed to improve communication between citizens and local administrators.
+
+Users can:
+
+* View available public services
+* Report issues within their city
+* Track issue resolution status
+* Submit feedback
+
+Administrators can:
+
+* Manage city services
+* View reported issues
+* Update issue status
+* Monitor analytics dashboards
+
+The platform uses role-based access control with separate user and admin panels.
+
+---
+
+## Features
+
+### User Panel
+
+* User authentication
+* Public services dashboard
+* Report issue functionality
+* Issue tracking system
+* Feedback submission
+
+### Admin Panel
+
+* Admin authentication
+* Service management
+* Issue monitoring dashboard
+* Issue status management
+* Analytics and reports
+
+### System Features
+
+* Role-based access control
+* City-based user-admin mapping
+* REST API integration
+* Responsive dashboard UI
+* Full-stack deployment
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* React.js
+* JavaScript
+* CSS
+
+### Backend
+
+* Spring Boot
+* Java
+
+### Database
+
+* MySQL
+
+### Tools & Platforms
+
+* Postman
+* GitHub
+* Vercel
+* Render
+
+---
+
+## Screenshots
+
+### Admin Dashboard
+
+<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/0d861f4c-50ad-45d5-b6ae-24ec8247c276" />
+
+### Issue Management
+
+<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/7f793acd-bf3d-4ef5-99b0-8bde29163634" />
+
+
+### Service Management
+
+<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/cc37a02a-97c0-429a-9387-f686df4d6b83" />
+
+
+### User Dashboard
+
+<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/9a3e8c32-73a8-4f60-a038-214c8cce06d0" />
+
+
+### Report Issue Module
+
+<img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/db63fbb5-695a-4580-adf5-f3650da4daa3" />
+
+
+---
+
+## Challenges Solved
+
+* Integrated React frontend with Spring Boot backend APIs
+* Implemented role-based authentication and routing
+* Managed MySQL database operations
+* Handled deployment integration across Vercel and Render
+* Designed separate admin and user workflows
+* Built issue tracking and status update systems
+
+---
+
+## Future Improvements
+
+* Real-time notifications
+* Email alerts
+* Improved analytics
+* Mobile responsiveness enhancements
+* AI-based issue categorization
+
+---
+
+## Author
+
+Vamshi Krishna Kusuru
+
+GitHub:
+https://github.com/vamshikrishnakusuru
